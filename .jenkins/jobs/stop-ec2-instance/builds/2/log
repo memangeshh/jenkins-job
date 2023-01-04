@@ -1,0 +1,12 @@
+Started by user [8mha:////4H7DaXvbOjGYfD4BiaY4zjMDfcMSlmztRgl10e7jW9J3AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9XKAZqcUZAHIp0QvCAAAA[0mmangesh
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/stop-ec2-instance
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[stop-ec2-instance] $ /bin/sh -xe /mnt/servers/apache-tomcat-9.0.70/temp/jenkins3045070535490910631.sh
++ aws ec2 stop-instances --instance-id i-043e7ef4585ca7ae0 --region us-east-2
+
+An error occurred (UnauthorizedOperation) when calling the StopInstances operation: You are not authorized to perform this operation. Encoded authorization failure message: wo1YdPBWCtGNNf45ysElIn_AB1lClQCMK35p5SVwt4j-viIJf8W4QDJLXRaF9zMjjmXpkTxKaPtH75tG7C0kNKanhy4-Jo4eRWKlXGsV2LVO6vEzV94mHLBZXqygGciLxgrMqiHW2hmDIfGh-SJKXCiXsp7cXWeTSPFdkgsmoof3rhGXkBm_5n9aqwFuTbTmPXxCVcEUe-Y7O6CEtunUsYI3uYGlBSkdgPNP6yxsxX37g6ksce33B5Sr_wHRmr4M4iiBWwn2k4baiVYFAXdVW0pmbw5X4DdMSXR-Q42M3ECuLBWPiGwzhr6rsOQZXtdBM5IXBjMuO7tc3cwn706bNH-5cSNr4ZTtGAim9mG4SVVfcom8CJ_ATZe_STaF88P78gS7JXKV2jnIpD8ueQJ4CwVDUNl0uZ8Ckv4xwrc3cpxEZCPWwRFoIxOGoF0R_tAB8nQFtZ3NhZGN5ywbLLTEDB3-D3Vv3ibm7-9NqFiio7iUpo2ouChXrGSjqjXu1-uvCok2vFTSQTzZQIv1HoLjGQXmNRzqL_-Vsx0rd_VI2VSy1Im4G9UnnnOiK9evjdK6DP-DsUb1pO09gK8BHmaVPfCvYP69trd9wyFzNl-AWkdpwXbI9rEiOuN81YPWrENg44FF6SQFE853dh-ciKhsAbQqKQ5NRPXbGUdB7izqiQSywCBti15fqY3o4RmnBeiIx28FfE9gYidsezzPfAkj7bwDIbsTEAOWJ3OH7vG4X_X3R7Tqd2YX_aLxc5ldWP-WP0oKsQabQJ3Q
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

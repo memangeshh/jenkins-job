@@ -1,0 +1,24 @@
+Started by user [8mha:////4H7DaXvbOjGYfD4BiaY4zjMDfcMSlmztRgl10e7jW9J3AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9XKAZqcUZAHIp0QvCAAAA[0mmangesh
+Running as SYSTEM
+Building in workspace /root/.jenkins/workspace/stop-ec2-instance
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[stop-ec2-instance] $ /bin/sh -xe /mnt/servers/apache-tomcat-9.0.70/temp/jenkins5279637921386428755.sh
++ aws ec2 stop-instances --instance-id i-043e7ef4585ca7ae0 --region us-east-2
+{
+    "StoppingInstances": [
+        {
+            "InstanceId": "i-043e7ef4585ca7ae0", 
+            "CurrentState": {
+                "Code": 64, 
+                "Name": "stopping"
+            }, 
+            "PreviousState": {
+                "Code": 16, 
+                "Name": "running"
+            }
+        }
+    ]
+}
+Finished: SUCCESS

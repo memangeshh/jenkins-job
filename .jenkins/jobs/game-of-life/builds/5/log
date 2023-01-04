@@ -1,0 +1,32 @@
+Started by user [8mha:////4H7DaXvbOjGYfD4BiaY4zjMDfcMSlmztRgl10e7jW9J3AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9XKAZqcUZAHIp0QvCAAAA[0mmangesh
+Running as SYSTEM
+Building in workspace /mnt/projetcs/game-of-life
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/memangeshh/game-of-life.git
+ > git init /mnt/projetcs/game-of-life # timeout=10
+Fetching upstream changes from https://github.com/memangeshh/game-of-life.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.38.1'
+ > git fetch --tags --force --progress -- https://github.com/memangeshh/game-of-life.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/memangeshh/game-of-life.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+Commit message: "Merge pull request #198 from GeraldScott/master"
+ > git rev-list --no-walk c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+[game-of-life] $ /bin/sh -xe /mnt/servers/apache-tomcat-9.0.70/temp/jenkins9164327704705263094.sh
++ rm -rf /root/.m2/repository
+[game-of-life] $ /bin/sh -xe /mnt/servers/apache-tomcat-9.0.70/temp/jenkins6952713680638960316.sh
++ cd /mnt/projects
++ scp -i aws-linuxKey.pem /mnt/projetcs/game-of-life/gameoflife-web/target/gameoflife.war ec2-user@172.31.0.78:/mnt/servers/apache-tomcat-9.0.70/webapps
+/mnt/projetcs/game-of-life/gameoflife-web/target/gameoflife.war: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
