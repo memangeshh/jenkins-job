@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1672850186,,"wq"
+|2,0,1672852761,,"wq"
 :q!
 |2,0,1672592332,,"q!"
 
@@ -27,24 +27,38 @@
 # Registers:
 
 # File marks:
-'0  1  19  ~/index.html
-|4,48,1,19,1672850186,"~/index.html"
-'1  27  28  /mnt/projects/aws-linuxKey.pem
-|4,49,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
-'2  1  8  /mnt/projects/index.html
-|4,50,1,8,1672592411,"/mnt/projects/index.html"
-'3  1  0  /mnt/vi
-|4,51,1,0,1672592332,"/mnt/vi"
-'4  12  32  ~/.bash_profile
-|4,52,12,32,1672591297,"~/.bash_profile"
+'0  1  1  ~/q1.html
+|4,48,1,1,1672852761,"~/q1.html"
+'1  1  19  ~/index.html
+|4,49,1,19,1672850186,"~/index.html"
+'2  27  28  /mnt/projects/aws-linuxKey.pem
+|4,50,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
+'3  1  8  /mnt/projects/index.html
+|4,51,1,8,1672592411,"/mnt/projects/index.html"
+'4  1  0  /mnt/vi
+|4,52,1,0,1672592332,"/mnt/vi"
+'5  12  32  ~/.bash_profile
+|4,53,12,32,1672591297,"~/.bash_profile"
 
 # Jumplist (newest first):
+-'  1  1  ~/q1.html
+|4,39,1,1,1672852761,"~/q1.html"
+-'  1  19  ~/index.html
+|4,39,1,19,1672850186,"~/index.html"
 -'  1  19  ~/index.html
 |4,39,1,19,1672850186,"~/index.html"
 -'  27  28  /mnt/projects/aws-linuxKey.pem
 |4,39,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
 -'  27  28  /mnt/projects/aws-linuxKey.pem
 |4,39,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
+-'  27  28  /mnt/projects/aws-linuxKey.pem
+|4,39,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
+-'  27  28  /mnt/projects/aws-linuxKey.pem
+|4,39,27,28,1672592525,"/mnt/projects/aws-linuxKey.pem"
+-'  1  0  /mnt/projects/aws-linuxKey.pem
+|4,39,1,0,1672592451,"/mnt/projects/aws-linuxKey.pem"
+-'  1  0  /mnt/projects/aws-linuxKey.pem
+|4,39,1,0,1672592451,"/mnt/projects/aws-linuxKey.pem"
 -'  1  0  /mnt/projects/aws-linuxKey.pem
 |4,39,1,0,1672592451,"/mnt/projects/aws-linuxKey.pem"
 -'  1  0  /mnt/projects/aws-linuxKey.pem
@@ -57,6 +71,30 @@
 |4,39,1,8,1672592411,"/mnt/projects/index.html"
 -'  1  8  /mnt/projects/index.html
 |4,39,1,8,1672592411,"/mnt/projects/index.html"
+-'  1  8  /mnt/projects/index.html
+|4,39,1,8,1672592411,"/mnt/projects/index.html"
+-'  1  8  /mnt/projects/index.html
+|4,39,1,8,1672592411,"/mnt/projects/index.html"
+-'  1  8  /mnt/projects/index.html
+|4,39,1,8,1672592411,"/mnt/projects/index.html"
+-'  1  8  /mnt/projects/index.html
+|4,39,1,8,1672592411,"/mnt/projects/index.html"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
+-'  1  0  /mnt/vi
+|4,39,1,0,1672592332,"/mnt/vi"
 -'  1  0  /mnt/vi
 |4,39,1,0,1672592332,"/mnt/vi"
 -'  1  0  /mnt/vi
@@ -105,6 +143,70 @@
 |4,39,12,32,1672591297,"~/.bash_profile"
 -'  12  32  ~/.bash_profile
 |4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  12  32  ~/.bash_profile
+|4,39,12,32,1672591297,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1672591254,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
 |4,39,1,0,1672591254,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
@@ -139,6 +241,13 @@
 |4,39,1,0,1672591254,"~/.bash_profile"
 
 # History of marks within files (newest to oldest):
+
+> ~/q1.html
+	*	1672852759	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/index.html
 	*	1672850184	0
